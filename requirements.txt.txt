@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+transformers
+torch
+langchain
+openai
+sentence-transformers
+requests
+python-multipart
+pydub
+streamlit-webrtc
+gTTS
+soundfile

@@ -1,0 +1,26 @@
+from gtts import gTTS
+import io
+
+def convert_text_to_speech(text: str) -> bytes:
+    """
+    Converts a string of text into speech (MP3 format) and returns it as bytes.
+    """
+    try:
+        # Create an in-memory file-like object
+        mp3_fp = io.BytesIO()
+        
+        # Create gTTS object
+        tts = gTTS(text=text, lang='en', slow=False)
+        
+        # Write the MP3 audio to the in-memory file
+        tts.write_to_fp(mp3_fp)
+        
+        # Reset the buffer's position to the beginning
+        mp3_fp.seek(0)
+        
+        # Read the bytes from the buffer
+        return mp3_fp.read()
+        
+    except Exception as e:
+        print(f"Error during text-to-speech conversion: {e}")
+        return b""

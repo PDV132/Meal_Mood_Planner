@@ -1,0 +1,18 @@
+{
+    "meals": [
+        {
+            "name": "Chicken Tikka Masala",
+            "cuisine_type": "South Asian",
+            "description": "A comforting curry with tender chicken in a rich, creamy tomato sauce",
+            "mood_tags": ["comfort", "satisfying", "warm"],
+            "dietary_options": ["high-protein", "gluten-free"],
+            "ingredients": [
+                "chicken breast",
+                "yogurt",
+                "tomatoes",
+                "cream",
+                "spices"
+            ]
+        }
+    ]
+}

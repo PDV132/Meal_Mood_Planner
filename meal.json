@@ -1,0 +1,3092 @@
+[
+  {
+    "mood_1": "Sad",
+    "mood_2": "Anxious",
+    "meal_name": "Lentil Soup",
+    "calories": 280,
+    "benefit": "Rich in tryptophan and folate, promoting serotonin production",
+    "reason": "Soothing, warm, and easy to digest — evokes comfort in South Asian homes",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Miso Soup with Seaweed",
+    "calories": 120,
+    "benefit": "Probiotics improve gut-brain clarity",
+    "reason": "Gentle umami broth — a meditative East Asian staple",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Gloomy",
+    "meal_name": "Baked Sweet Potato w/ Tahini",
+    "calories": 350,
+    "benefit": "Magnesium and complex carbs stabilize mood",
+    "reason": "Earthy sweetness provides grounding warmth",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Distracted",
+    "meal_name": "Greek Yogurt Parfait",
+    "calories": 320,
+    "benefit": "Probiotics and B-vitamins balance energy",
+    "reason": "Textural variety calms nervous energy, Mediterranean treat",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "High-Protein"
+  },
+  {
+    "mood_1": "Moody",
+    "mood_2": "Unfocused",
+    "meal_name": "Chickpea Tagine",
+    "calories": 410,
+    "benefit": "Iron-rich legumes and warming spices lift mental fog",
+    "reason": "Slow-cooked Moroccan blend evokes depth and patience",
+    "cultural_theme": "African",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Irritable",
+    "mood_2": "Tired",
+    "meal_name": "Spinach & Paneer Curry",
+    "calories": 390,
+    "benefit": "Iron and calcium boost emotional regulation",
+    "reason": "Savory strength and nostalgic spice bring emotional anchoring",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Homesick",
+    "mood_2": "Sad",
+    "meal_name": "Mom’s Tomato Rasam",
+    "calories": 110,
+    "benefit": "Vitamin C and pepper aid emotional release",
+    "reason": "Aromatic broth that evokes care and home",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Exhausted",
+    "mood_2": "Cold",
+    "meal_name": "Oats w/ Banana & Cinnamon",
+    "calories": 280,
+    "benefit": "Complex carbs and potassium relieve fatigue",
+    "reason": "Warmth and sweetness — a Western comfort classic",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Sluggish",
+    "mood_2": "Numb",
+    "meal_name": "Lentil & Brown Rice Bowl",
+    "calories": 360,
+    "benefit": "Balanced macros for sustained energy",
+    "reason": "Simple, hearty pairing delivers emotional stability",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Stressed",
+    "meal_name": "Kimchi Fried Rice (mild)",
+    "calories": 430,
+    "benefit": "Fermented foods and fiber support gut mood",
+    "reason": "Zingy yet grounding — East Asian comfort with edge",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Irritable",
+    "meal_name": "Vegetable Pad Thai",
+    "calories": 480,
+    "benefit": "Balanced macros and crunchy textures improve dopamine response",
+    "reason": "Tamarind and peanut medley provide stimulating satisfaction", 
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Bored",
+    "mood_2": "Restless",
+    "meal_name": "Stuffed Bell Peppers",
+    "calories": 370,
+    "benefit": "High in vitamin C and fiber, energizing and gut-friendly",
+    "reason": "Colorful format and novelty in presentation uplift spirit",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Foggy",
+    "meal_name": "Avocado Toast w/ Pumpkin Seeds",
+    "calories": 310,
+    "benefit": "Healthy fats, zinc, and fiber support cognition",
+    "reason": "Crunch and creaminess create a sensory reset",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Sluggish",
+    "meal_name": "Egg & Spinach Breakfast Wrap",
+    "calories": 340,
+    "benefit": "Protein and iron boost energy regulation",
+    "reason": "Portable and hearty — a revitalizing jumpstart",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "High-Protein"
+  },
+  {
+    "mood_1": "Stressed",
+    "mood_2": "Anxious",
+    "meal_name": "Turmeric Quinoa Pilaf",
+    "calories": 400,
+    "benefit": "Anti-inflammatory turmeric calms the nervous system",
+    "reason": "Golden, earthy tones provide visual and emotional soothing",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Homesick",
+    "meal_name": "Creamy Tomato Bisque w/ Croutons",
+    "calories": 290,
+    "benefit": "Lycopene and warmth regulate cortisol",
+    "reason": "Silky textures evoke comfort and security",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Distracted",
+    "mood_2": "Numb",
+    "meal_name": "Kale & Apple Salad w/ Ginger Dressing",
+    "calories": 250,
+    "benefit": "Fiber, antioxidants, and zingy flavors reboot clarity",
+    "reason": "Bright crunch awakens sensory focus",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Sluggish",
+    "meal_name": "Roasted Root Vegetable Medley",
+    "calories": 320,
+    "benefit": "Slow carbs and phytonutrients combat fatigue",
+    "reason": "Earthy caramelization mimics emotional grounding",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Sad",
+    "meal_name": "Fenugreek Flatbread w/ Yogurt Dip",
+    "calories": 350,
+    "benefit": "Fenugreek aids digestion and hormonal balance",
+    "reason": "Familiar flavor profile eases mood stagnation",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Overwhelmed",
+    "mood_2": "Restless",
+    "meal_name": "Shakshuka",
+    "calories": 420,
+    "benefit": "Choline and B12 support neural focus and calm",
+    "reason": "Vibrant tomato and egg combo feels restorative and nourishing",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Sluggish",
+    "mood_2": "Unfocused",
+    "meal_name": "Spicy Black Bean Bowl",
+    "calories": 390,
+    "benefit": "Protein, fiber, and spice stimulate metabolism and focus",
+    "reason": "Zesty kick and hearty texture reignite drive",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "High-Protein"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Distracted",
+    "meal_name": "Cucumber & Sesame Rice Rolls",
+    "calories": 260,
+    "benefit": "Cooling ingredients and B-vitamins calm nerves",
+    "reason": "Simple prep and soothing crunch foster mindfulness",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Gloomy",
+    "meal_name": "Beetroot & Feta Salad",
+    "calories": 310,
+    "benefit": "Nitrates and protein boost circulation and vitality",
+    "reason": "Vibrant color and tangy finish lift emotional dullness",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Cold",
+    "meal_name": "Vegetable Hot Pot",
+    "calories": 440,
+    "benefit": "Hydration and mineral-rich broth soothe senses",
+    "reason": "Simmering table-side warmth creates communal comfort",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Homesick",
+    "meal_name": "Upma w/ Roasted Cashews",
+    "calories": 350,
+    "benefit": "Semolina and nuts provide slow carbs and grounding fats",
+    "reason": "Nostalgic texture and South Indian aroma evoke safety",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Distracted",
+    "mood_2": "Moody",
+    "meal_name": "Coconut Chickpea Curry",
+    "calories": 390,
+    "benefit": "Healthy fats and iron boost mental clarity",
+    "reason": "Creamy spices deliver warmth and quiet mental noise",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Sluggish",
+    "meal_name": "Eggplant Parmesan",
+    "calories": 430,
+    "benefit": "Umami satisfaction stabilizes mood",
+    "reason": "Cheesy layers and roasted texture comfort and satiate",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Irritable",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Millet Khichdi w/ Yogurt",
+    "calories": 360,
+    "benefit": "Fiber, probiotics, and warmth regulate digestion and calm",
+    "reason": "Soft grain-and-spice profile relaxes overactive mind",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Homesick",
+    "mood_2": "Lonely",
+    "meal_name": "Mashed Potato w/ Ghee & Spices",
+    "calories": 300,
+    "benefit": "Potassium and comforting fats elevate mood",
+    "reason": "Creamy texture and familiar aroma soothe emotional yearning",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Numb",
+    "meal_name": "Tofu & Broccoli Stir-Fry",
+    "calories": 340,
+    "benefit": "Plant protein and magnesium sharpen cognition",
+    "reason": "Quick prep and vibrant crunch rekindle connection",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Cold",
+    "meal_name": "Moroccan Lentil Stew",
+    "calories": 400,
+    "benefit": "Fiber, iron, and warming spices uplift and energize",
+    "reason": "Slow-cooked depth and spice medley ignite emotional warmth",
+    "cultural_theme": "African",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Grumpy",
+    "meal_name": "Korean Bibimbap Bowl",
+    "calories": 480,
+    "benefit": "Balance of textures and fermented sides regulate mood",
+    "reason": "DIY layering gives control and sensory excitement",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Bored",
+    "mood_2": "Foggy",
+    "meal_name": "Zucchini Noodles w/ Pesto",
+    "calories": 280,
+    "benefit": "Healthy fats and chlorophyll reduce mental fatigue",
+    "reason": "Fresh spiral texture renews engagement",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Sluggish",
+    "mood_2": "Irritable",
+    "meal_name": "Moong Dal Khichdi",
+    "calories": 320,
+    "benefit": "Easily digestible protein calms digestion and nerves",
+    "reason": "Soft, familiar preparation restores balance",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Sad",
+    "meal_name": "Pumpkin Soup w/ Coconut Cream",
+    "calories": 330,
+    "benefit": "Beta-carotene and fats reduce inflammation",
+    "reason": "Velvety texture and warmth evoke security",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Overwhelmed",
+    "mood_2": "Distracted",
+    "meal_name": "Brown Rice Sushi (Avocado & Cucumber)",
+    "calories": 290,
+    "benefit": "Omega-3-rich avocado and whole grains support cognition",
+    "reason": "Minimalist composition creates sensory serenity",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Foggy",
+    "meal_name": "Pear & Walnut Salad",
+    "calories": 250,
+    "benefit": "Brain-friendly fats and polyphenols spark clarity",
+    "reason": "Crunchy-soft contrast awakens taste memory",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Homesick",
+    "meal_name": "Curd Rice w/ Mustard Tempering",
+    "calories": 310,
+    "benefit": "Probiotics and cooling properties support gut comfort",
+    "reason": "Familiar South Indian staple eases emotional vulnerability",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Restless",
+    "meal_name": "Egg & Sweet Potato Hash",
+    "calories": 390,
+    "benefit": "Protein and vitamin A restore energy reserves",
+    "reason": "Savory-sweet combo kickstarts motivation",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "High-Protein"
+  },
+  {
+    "mood_1": "Distracted",
+    "mood_2": "Grumpy",
+    "meal_name": "Chana Sundal",
+    "calories": 340,
+    "benefit": "Protein, fiber, and coconut enhance satiety and mood",
+    "reason": "Snappy texture and festival memories calm and engage",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Unfocused",
+    "meal_name": "Steamed Fish w/ Ginger & Scallions",
+    "calories": 350,
+    "benefit": "Omega-3s and anti-inflammatory compounds regulate emotional fluctuations",
+    "reason": "Gentle preparation and subtle aromatics calm sensory overload",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "High-Protein"
+  },
+  {
+    "mood_1": "Overwhelmed",
+    "mood_2": "Foggy",
+    "meal_name": "Palak Tofu Curry",
+    "calories": 370,
+    "benefit": "Iron and plant protein improve mental clarity and energy",
+    "reason": "Mild spices and creamy greens center the nervous system",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Homesick",
+    "mood_2": "Moody",
+    "meal_name": "Ginger Garlic Congee",
+    "calories": 310,
+    "benefit": "Anti-inflammatory base improves digestion and mood",
+    "reason": "Soft texture and familiar flavors rekindle warmth",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Lonely",
+    "meal_name": "Herbed Polenta w/ Roasted Tomatoes",
+    "calories": 340,
+    "benefit": "Carbs, lycopene, and savory herbs calm irritation",
+    "reason": "Silken cornmeal and bright tomatoes revive hopefulness",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Distracted",
+    "meal_name": "Methi Thepla w/ Plain Yogurt",
+    "calories": 330,
+    "benefit": "Fenugreek aids focus, and probiotics support gut stability",
+    "reason": "Soft-spiced flatbread and cool yogurt center the mind",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Sluggish",
+    "meal_name": "Chili Lime Chicken Bowl",
+    "calories": 420,
+    "benefit": "Zesty citrus and lean protein boost alertness",
+    "reason": "Flavor punch revives motivation without heaviness",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "High-Protein"
+  },
+  {
+    "mood_1": "Irritable",
+    "mood_2": "Cold",
+    "meal_name": "Spiced Carrot & Lentil Soup",
+    "calories": 300,
+    "benefit": "Beta-carotene and fiber settle mood instability",
+    "reason": "Velvety warmth and subtle heat soothe agitation",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Distracted",
+    "meal_name": "Paneer Tikka Wrap",
+    "calories": 390,
+    "benefit": "Protein and texture reset mental clarity",
+    "reason": "Familiar spices and handheld format ground sensory chaos",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Anxious",
+    "meal_name": "Sweet Corn Fritters",
+    "calories": 360,
+    "benefit": "Magnesium and complex carbs steady nervous tension",
+    "reason": "Crispy golden pockets offer soothing bite-sized relief",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Sad",
+    "meal_name": "Ragi Dosa w/ Coconut Chutney",
+    "calories": 330,
+    "benefit": "Calcium-rich millet stabilizes emotions and promotes resilience",
+    "reason": "Nutty flavor and nostalgic pairing nurture calm",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Sad",
+    "meal_name": "Thakkali Kuzhambu w/ Steamed Rice",
+    "calories": 390,
+    "benefit": "Vitamin C and lycopene improve mood regulation and immunity",
+    "reason": "Tangy-spicy aroma evokes familial bonding and shared meals",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Grumpy",
+    "meal_name": "Tofu & Mushroom Stir-Fry",
+    "calories": 360,
+    "benefit": "Iron and umami compounds support mental clarity",
+    "reason": "Quick sizzling technique rekindles attention and excitement",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Sluggish",
+    "mood_2": "Homesick",
+    "meal_name": "Jeera Rice w/ Mixed Vegetable Kurma",
+    "calories": 400,
+    "benefit": "Spiced digestion support and antioxidant-rich veggies energize the body",
+    "reason": "Aromatic pairing reminiscent of festive South Indian dinners",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Cold",
+    "meal_name": "Warm Quinoa Salad w/ Roasted Veggies",
+    "calories": 350,
+    "benefit": "Complex carbs and B-vitamins boost focus and warmth",
+    "reason": "Nutty quinoa and rainbow veggies stimulate emotional clarity",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Tired",
+    "meal_name": "Kadhi Pakora",
+    "calories": 420,
+    "benefit": "Probiotics and warming spices balance gut and mood",
+    "reason": "Soft pakoras floating in silky yogurt evoke familial comfort",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Lonely",
+    "meal_name": "Falafel Wrap w/ Hummus",
+    "calories": 440,
+    "benefit": "Protein, fiber, and flavor blend reduce nervous energy",
+    "reason": "Crunch and creamy dips offer tactile grounding",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Cold",
+    "meal_name": "Herbal Chicken Soup",
+    "calories": 330,
+    "benefit": "Aromatic herbs and lean protein stabilize emotions",
+    "reason": "Slow simmer and scented broth soothe internal tension",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "High-Protein"
+  },
+  {
+    "mood_1": "Distracted",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Turmeric Rice w/ Stir-Fried Greens",
+    "calories": 310,
+    "benefit": "Curcumin and fiber ease inflammation and mental clutter",
+    "reason": "Warm spice and crunchy texture anchor thought patterns",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Moody",
+    "mood_2": "Unfocused",
+    "meal_name": "Baked Frittata w/ Spinach & Peppers",
+    "calories": 380,
+    "benefit": "Choline and iron enrich brain and emotional regulation",
+    "reason": "Bright layers and oven-baked texture balance extremes",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Sluggish",
+    "mood_2": "Irritable",
+    "meal_name": "Masala Idli Stir-Fry",
+    "calories": 360,
+    "benefit": "Fermented grains and spice combo boost gut and sensory function",
+    "reason": "Bold South Indian snack revives motivation",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Mentally Fatigued",
+    "meal_name": "Poha w/ Peanuts & Curry Leaves",
+    "calories": 330,
+    "benefit": "Iron-rich flattened rice restores energy and focus",
+    "reason": "Soft texture, warm spices, and crunch create sensory alertness",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Distracted",
+    "mood_2": "Foggy",
+    "meal_name": "Cauliflower Rice Stir-Fry",
+    "calories": 300,
+    "benefit": "Low-carb, antioxidant-rich veggies boost cognition",
+    "reason": "Cruciferous crunch and sesame notes help mental reset",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Low-Carb"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Detached",
+    "meal_name": "Sambar w/ Drumstick & Brinjal",
+    "calories": 360,
+    "benefit": "Tamarind and spices balance mood and improve gut resilience",
+    "reason": "Soulful spice broth fosters emotional grounding",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Sluggish",
+    "mood_2": "Grumpy",
+    "meal_name": "Crispy Potato Tacos",
+    "calories": 420,
+    "benefit": "Comfort carbs and spice boost dopamine",
+    "reason": "Crunchy layers and playful spices revive engagement",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Gloomy",
+    "meal_name": "Stir-Fried Garlic Bok Choy",
+    "calories": 250,
+    "benefit": "Sulfur compounds and fiber aid neuroclarity",
+    "reason": "Fragrant, quick-cooked greens lighten emotional heaviness",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Irritable",
+    "mood_2": "Tired",
+    "meal_name": "Savory Oatmeal w/ Ghee & Cumin",
+    "calories": 310,
+    "benefit": "Complex carbs and warming ghee stabilize mood swings",
+    "reason": "Comforting texture and spice relax frayed nerves",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Sad",
+    "meal_name": "Sweet Potato & Chickpea Stew",
+    "calories": 400,
+    "benefit": "Beta-carotene and protein combat emotional depletion",
+    "reason": "Velvety richness and spice build inner warmth",
+    "cultural_theme": "African",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Distracted",
+    "meal_name": "Mexican Quinoa Bowl",
+    "calories": 390,
+    "benefit": "Balanced plant macros sustain energy and calm",
+    "reason": "Zesty, colorful layers trigger visual and taste alignment",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Mentally Fatigued",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Ginger-Turmeric Carrot Soup",
+    "calories": 280,
+    "benefit": "Anti-inflammatory roots improve neural restoration",
+    "reason": "Golden color and smooth texture support emotional reset",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Lonely",
+    "meal_name": "Masala Chai w/ Whole Wheat Biscuits",
+    "calories": 220,
+    "benefit": "Spices and warm tea help release serotonin",
+    "reason": "Shared ritual reconnects with nostalgia and community",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Sluggish",
+    "meal_name": "Roasted Brussels Sprouts w/ Balsamic Glaze",
+    "calories": 270,
+    "benefit": "Vitamin K and prebiotics restore clarity",
+    "reason": "Slight bitterness and caramel notes elevate attention",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Stuffed Portobello Mushrooms",
+    "calories": 340,
+    "benefit": "B-vitamins and umami regulate stress hormones",
+    "reason": "Bold texture and protein-rich filling restore composure",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Homesick",
+    "mood_2": "Sad",
+    "meal_name": "Lemon Rice w/ Cashews",
+    "calories": 360,
+    "benefit": "Vitamin C and mellow fats stabilize nerves",
+    "reason": "Citrusy zest and nostalgic crunch reconnect with memories",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Moody",
+    "meal_name": "Bulgur Pilaf w/ Herbs",
+    "calories": 340,
+    "benefit": "Low-GI grains and phytonutrients ease mood spikes",
+    "reason": "Earthy aroma and chewy texture create grounding",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Foggy",
+    "meal_name": "Banana Walnut Smoothie",
+    "calories": 300,
+    "benefit": "B6, magnesium, and potassium support serotonin synthesis",
+    "reason": "Creamy consistency and mellow sweetness feel emotionally gentle",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Cold",
+    "meal_name": "Tomato Cucumber Raita w/ Flatbread",
+    "calories": 280,
+    "benefit": "Probiotics and hydration improve sensory regulation",
+    "reason": "Cool crunch paired with warm bread rebalances attention",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Restless",
+    "meal_name": "Black Eyed Peas Curry",
+    "calories": 400,
+    "benefit": "Plant protein and folate support emotional equilibrium",
+    "reason": "Slow-cooked pulse and spices feel soulful and comforting",
+    "cultural_theme": "African",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Sluggish",
+    "meal_name": "Stir-Fried Tofu w/ Basil & Peppers",
+    "calories": 360,
+    "benefit": "Protein, antioxidants, and aromatic herbs revive cognition",
+    "reason": "Sweet-heat balance and herbaceous clarity elevate mood",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Sad",
+    "meal_name": "Sweet Semolina Porridge (Sheera)",
+    "calories": 330,
+    "benefit": "Cardamom and saffron gently stimulate serotonin",
+    "reason": "Soft, golden sweetness reconnects with spiritual warmth",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Moody",
+    "mood_2": "Distracted",
+    "meal_name": "Baked Ziti w/ Spinach & Ricotta",
+    "calories": 430,
+    "benefit": "Protein and B-vitamins stabilize emotion and focus",
+    "reason": "Melty texture and soft pasta soothe frazzled states",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+    },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Khichdi w/ Ghee & Moong Dal",
+    "calories": 310,
+    "benefit": "Simple proteins and healthy fats calm the nervous system",
+    "reason": "Soft, cohesive texture and warming spices ease mental strain",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Foggy",
+    "meal_name": "Avocado Toast w/ Chili Flakes & Lemon",
+    "calories": 280,
+    "benefit": "Healthy fats and zest sharpen attention",
+    "reason": "Creamy-crisp balance with heat and tang realign sensory focus",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Cold",
+    "meal_name": "Chickpea Spinach Curry",
+    "calories": 360,
+    "benefit": "Iron-rich greens and spices lift mood and warmth",
+    "reason": "Soft legumes and leafy greens in earthy gravy hug the soul",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Sad",
+    "meal_name": "Chocolate-Date Energy Bites",
+    "calories": 220,
+    "benefit": "Natural sugars and magnesium boost serotonin",
+    "reason": "Chewy, rich sweetness feels like a portable hug",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Moody",
+    "meal_name": "Lentil Soup w/ Lemon & Thyme",
+    "calories": 300,
+    "benefit": "Protein and herbaceous warmth regulate emotional swings",
+    "reason": "Zingy aroma and soft lentils promote cognitive clarity",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Homesick",
+    "mood_2": "Foggy",
+    "meal_name": "Upma w/ Vegetables & Cashews",
+    "calories": 340,
+    "benefit": "Semolina and veggies offer grounding and nostalgia",
+    "reason": "Warm, savory texture and crunch reconnect with comfort",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Cold",
+    "meal_name": "Miso Soup w/ Tofu & Seaweed",
+    "calories": 220,
+    "benefit": "Umami and minerals soothe emotional depletion",
+    "reason": "Gentle broth and soft textures warm from within",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Unfocused",
+    "meal_name": "Spiced Millet Bowl w/ Roasted Veggies",
+    "calories": 390,
+    "benefit": "Low-GI grains and fiber stabilize energy",
+    "reason": "Earthy base and vibrant toppings anchor attention",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Gloomy",
+    "meal_name": "Rajma w/ Brown Rice",
+    "calories": 420,
+    "benefit": "Protein and slow carbs support emotional resilience",
+    "reason": "Rich gravy and hearty texture feel like home",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Distracted",
+    "meal_name": "Zucchini Noodles w/ Pesto",
+    "calories": 280,
+    "benefit": "Healthy fats and greens boost cognition",
+    "reason": "Fresh aroma and light texture refresh mental clarity",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Low-Carb"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Restless",
+    "meal_name": "Paneer Tikka Wrap",
+    "calories": 430,
+    "benefit": "Protein and spice elevate mood and focus",
+    "reason": "Charred edges and creamy filling offer sensory satisfaction",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Mentally Fatigued",
+    "meal_name": "Pumpkin Soup w/ Nutmeg & Coconut Milk",
+    "calories": 310,
+    "benefit": "Beta-carotene and healthy fats restore calm",
+    "reason": "Velvety warmth and spice soothe emotional weariness",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Sluggish",
+    "meal_name": "Beetroot Poriyal w/ Rice",
+    "calories": 350,
+    "benefit": "Nitrates and fiber improve blood flow and clarity",
+    "reason": "Bright color and earthy crunch stimulate senses",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Moody",
+    "meal_name": "Thai Coconut Curry w/ Tofu",
+    "calories": 400,
+    "benefit": "Medium-chain fats and spice balance hormones",
+    "reason": "Creamy heat and aromatic herbs offer emotional lift",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Sad",
+    "meal_name": "Stuffed Bell Peppers w/ Quinoa & Black Beans",
+    "calories": 390,
+    "benefit": "Complete plant protein and fiber stabilize mood",
+    "reason": "Colorful presentation and hearty filling feel nurturing",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Spinach Dal w/ Garlic Tadka",
+    "calories": 320,
+    "benefit": "Iron and antioxidants support mental clarity",
+    "reason": "Smooth texture and bold aroma cut through mental haze",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Homesick",
+    "meal_name": "Vegetable Kurma w/ Parotta",
+    "calories": 450,
+    "benefit": "Spices and creamy base evoke warmth and connection",
+    "reason": "Layered flavors and flaky bread recreate festive comfort",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Foggy",
+    "meal_name": "Eggplant Parmesan",
+    "calories": 430,
+    "benefit": "Lycopene and protein regulate mood and cognition",
+    "reason": "Melty layers and savory depth soothe irritability",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Unfocused",
+    "meal_name": "Carrot Halwa w/ Almonds",
+    "calories": 360,
+    "benefit": "Vitamin A and natural sweetness uplift spirits",
+    "reason": "Warm dessert with crunch and spice feels emotionally rich",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Distracted",
+    "meal_name": "Egg Bhurji w/ Toast",
+    "calories": 380,
+    "benefit": "Protein and spice boost alertness",
+    "reason": "Quick, savory scramble recharges mental energy",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "High-Protein"
+   },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Sluggish",
+    "meal_name": "Green Tea w/ Lemon & Honey",
+    "calories": 60,
+    "benefit": "Antioxidants and citrus improve clarity",
+    "reason": "Gentle warmth and tart-sweet balance refresh senses",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Homesick",
+    "meal_name": "Vegetable Kurma w/ Parotta",
+    "calories": 450,
+    "benefit": "Spices and creamy base evoke warmth and connection",
+    "reason": "Layered flavors and flaky bread recreate festive comfort",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Sad",
+    "meal_name": "Stuffed Bell Peppers w/ Quinoa & Black Beans",
+    "calories": 390,
+    "benefit": "Complete plant protein and fiber stabilize mood",
+    "reason": "Colorful presentation and hearty filling feel nurturing",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Moody",
+    "meal_name": "Thai Coconut Curry w/ Tofu",
+    "calories": 400,
+    "benefit": "Medium-chain fats and spice balance hormones",
+    "reason": "Creamy heat and aromatic herbs offer emotional lift",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Foggy",
+    "meal_name": "Eggplant Parmesan",
+    "calories": 430,
+    "benefit": "Lycopene and protein regulate mood and cognition",
+    "reason": "Melty layers and savory depth soothe irritability",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Unfocused",
+    "meal_name": "Carrot Halwa w/ Almonds",
+    "calories": 360,
+    "benefit": "Vitamin A and natural sweetness uplift spirits",
+    "reason": "Warm dessert with crunch and spice feels emotionally rich",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Unfocused",
+    "meal_name": "Spiced Millet Bowl w/ Roasted Veggies",
+    "calories": 390,
+    "benefit": "Low-GI grains and fiber stabilize energy",
+    "reason": "Earthy base and vibrant toppings anchor attention",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Spinach Dal w/ Garlic Tadka",
+    "calories": 320,
+    "benefit": "Iron and antioxidants support mental clarity",
+    "reason": "Smooth texture and bold aroma cut through mental haze",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Gloomy",
+    "meal_name": "Rajma w/ Brown Rice",
+    "calories": 420,
+    "benefit": "Protein and slow carbs support emotional resilience",
+    "reason": "Rich gravy and hearty texture feel like home",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Sluggish",
+    "meal_name": "Beetroot Poriyal w/ Rice",
+    "calories": 350,
+    "benefit": "Nitrates and fiber improve blood flow and clarity",
+    "reason": "Bright color and earthy crunch stimulate senses",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Mentally Fatigued",
+    "meal_name": "Pumpkin Soup w/ Nutmeg & Coconut Milk",
+    "calories": 310,
+    "benefit": "Beta-carotene and healthy fats restore calm",
+    "reason": "Velvety warmth and spice soothe emotional weariness",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Restless",
+    "meal_name": "Paneer Tikka Wrap",
+    "calories": 430,
+    "benefit": "Protein and spice elevate mood and focus",
+    "reason": "Charred edges and creamy filling offer sensory satisfaction",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Distracted",
+    "meal_name": "Zucchini Noodles w/ Pesto",
+    "calories": 280,
+    "benefit": "Healthy fats and greens boost cognition",
+    "reason": "Fresh aroma and light texture refresh mental clarity",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Low-Carb"
+  },
+  {
+    "mood_1": "Homesick",
+    "mood_2": "Foggy",
+    "meal_name": "Upma w/ Vegetables & Cashews",
+    "calories": 340,
+    "benefit": "Semolina and veggies offer grounding and nostalgia",
+    "reason": "Warm, savory texture and crunch reconnect with comfort",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Cold",
+    "meal_name": "Miso Soup w/ Tofu & Seaweed",
+    "calories": 220,
+    "benefit": "Umami and minerals soothe emotional depletion",
+    "reason": "Gentle broth and soft textures warm from within",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Moody",
+    "mood_2": "Distracted",
+    "meal_name": "Baked Ziti w/ Spinach & Ricotta",
+    "calories": 430,
+    "benefit": "Protein and B-vitamins stabilize emotion and focus",
+    "reason": "Melty texture and soft pasta soothe frazzled states",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Sad",
+    "meal_name": "Sweet Semolina Porridge (Sheera)",
+    "calories": 330,
+    "benefit": "Cardamom and saffron gently stimulate serotonin",
+    "reason": "Soft, golden sweetness reconnects with spiritual warmth",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Sluggish",
+    "meal_name": "Roasted Brussels Sprouts w/ Balsamic Glaze",
+    "calories": 270,
+    "benefit": "Vitamin K and prebiotics restore clarity",
+    "reason": "Slight bitterness and caramel notes elevate attention",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Lonely",
+    "meal_name": "Masala Chai w/ Whole Wheat Biscuits",
+    "calories": 220,
+    "benefit": "Spices and warm tea help release serotonin",
+    "reason": "Shared ritual reconnects with nostalgia and community",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Restless",
+    "meal_name": "Lemon Balm Herbal Tea w/ Honey",
+    "calories": 80,
+    "benefit": "Calming herbs and natural sweetness reduce anxiety",
+    "reason": "Warm infusion and floral notes soothe racing thoughts",
+    "cultural_theme": "Western Herbal",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Sluggish",
+    "mood_2": "Foggy",
+    "meal_name": "Papaya Salad w/ Lime & Peanuts",
+    "calories": 260,
+    "benefit": "Enzymes and citrus refresh digestion and focus",
+    "reason": "Crunchy, tangy textures awaken the senses",
+    "cultural_theme": "Southeast Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Disconnected",
+    "meal_name": "Vegetable Biryani w/ Raita",
+    "calories": 480,
+    "benefit": "Spices and probiotics foster emotional grounding",
+    "reason": "Layered aroma and cooling contrast evoke celebration",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Tired",
+    "meal_name": "Creamy Polenta w/ Roasted Mushrooms",
+    "calories": 390,
+    "benefit": "Complex carbs and umami restore emotional balance",
+    "reason": "Velvety texture and earthy depth feel nurturing",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Unsettled",
+    "meal_name": "Falafel Wrap w/ Tahini Sauce",
+    "calories": 420,
+    "benefit": "Fiber and healthy fats stabilize mood",
+    "reason": "Crunchy wrap and creamy sauce offer sensory satisfaction",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Distracted",
+    "meal_name": "Cabbage Stir-Fry w/ Mustard Seeds",
+    "calories": 270,
+    "benefit": "Sulfur-rich veggies and spice improve clarity",
+    "reason": "Quick-cooked crunch and bold aroma sharpen focus",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Gloomy",
+    "meal_name": "Hot Chocolate w/ Cinnamon & Nutmeg",
+    "calories": 250,
+    "benefit": "Warmth and spices elevate mood and circulation",
+    "reason": "Creamy sweetness and spice feel emotionally cozy",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Sluggish",
+    "meal_name": "Pear & Walnut Salad w/ Feta",
+    "calories": 320,
+    "benefit": "Omega-3s and antioxidants boost cognition",
+    "reason": "Sweet-savory balance and crunch stimulate attention",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Irritable",
+    "meal_name": "Spicy Tomato Rasam",
+    "calories": 180,
+    "benefit": "Tamarind and spice clear emotional congestion",
+    "reason": "Tangy broth and heat reset mood quickly",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Restless",
+    "meal_name": "Stuffed Sweet Potatoes w/ Black Beans",
+    "calories": 410,
+    "benefit": "Complex carbs and protein stabilize emotions",
+    "reason": "Soft sweetness and hearty filling feel grounding",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Cucumber Mint Yogurt Bowl",
+    "calories": 240,
+    "benefit": "Cooling probiotics and herbs calm the nervous system",
+    "reason": "Smooth texture and fresh aroma refresh the mind",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Sad",
+    "meal_name": "Vegetable Korma w/ Jeera Rice",
+    "calories": 460,
+    "benefit": "Creamy spices and cumin soothe emotional fatigue",
+    "reason": "Rich gravy and fragrant rice evoke warmth and care",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Foggy",
+    "meal_name": "Grilled Halloumi w/ Pomegranate Glaze",
+    "calories": 350,
+    "benefit": "Protein and antioxidants sharpen focus",
+    "reason": "Salty-sweet contrast and chewy texture stimulate clarity",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Unfocused",
+    "meal_name": "Tofu Scramble w/ Spinach & Turmeric",
+    "calories": 310,
+    "benefit": "Plant protein and anti-inflammatory spice boost energy",
+    "reason": "Savory warmth and greens restore mental sharpness",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Sluggish",
+    "meal_name": "Ginger Garlic Noodle Soup",
+    "calories": 390,
+    "benefit": "Aromatic broth and carbs warm and energize",
+    "reason": "Slurpy texture and spice clear mental fog",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Sad",
+    "meal_name": "Date & Coconut Ladoo",
+    "calories": 220,
+    "benefit": "Natural sugars and healthy fats lift mood",
+    "reason": "Chewy sweetness and nostalgic flavor feel comforting",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Distracted",
+    "meal_name": "Beetroot Hummus w/ Pita Chips",
+    "calories": 280,
+    "benefit": "Nitrates and fiber improve blood flow and focus",
+    "reason": "Vibrant color and creamy texture stimulate senses",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Homesick",
+    "meal_name": "Rava Dosa w/ Coconut Chutney",
+    "calories": 430,
+    "benefit": "Fermented batter and coconut restore gut and mood",
+    "reason": "Crispy edges and nostalgic pairing evoke belonging",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Foggy",
+    "meal_name": "Warm Apple Cinnamon Oats",
+    "calories": 310,
+    "benefit": "Fiber and spice regulate serotonin and blood sugar",
+    "reason": "Soft texture and sweet spice feel emotionally grounding",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Moody",
+    "meal_name": "Grilled Veggie Skewers w/ Chimichurri",
+    "calories": 360,
+    "benefit": "Herbs and charred veggies balance emotional swings",
+    "reason": "Colorful presentation and bold flavor reenergize",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Unfocused",
+    "meal_name": "Ash Gourd Curry w/ Coconut",
+    "calories": 310,
+    "benefit": "Cooling properties and healthy fats calm nerves",
+    "reason": "Mild sweetness and creamy texture ease mental tension",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Irritable",
+    "meal_name": "Grilled Corn w/ Lime & Chili",
+    "calories": 220,
+    "benefit": "Fiber and spice stimulate dopamine and focus",
+    "reason": "Charred crunch and tangy heat offer sensory reset",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Disconnected",
+    "meal_name": "Kale & Sweet Potato Hash",
+    "calories": 370,
+    "benefit": "Complex carbs and greens restore emotional balance",
+    "reason": "Earthy sweetness and crisp edges feel grounding",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Cold",
+    "meal_name": "Lemongrass Tofu Soup",
+    "calories": 290,
+    "benefit": "Citrus and herbs clear mental fog",
+    "reason": "Light broth and aromatic depth refresh cognition",
+    "cultural_theme": "Southeast Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Grumpy",
+    "meal_name": "Vegetable Pulao w/ Raisins & Nuts",
+    "calories": 420,
+    "benefit": "Balanced macros and sweet-savory notes lift spirits",
+    "reason": "Fragrant rice and festive textures evoke celebration",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Restless",
+    "meal_name": "Chickpea Lettuce Wraps",
+    "calories": 280,
+    "benefit": "Protein and crunch improve attention",
+    "reason": "Hand-held format and zesty filling engage senses",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Sluggish",
+    "meal_name": "Pumpkin Paratha w/ Yogurt",
+    "calories": 360,
+    "benefit": "Beta-carotene and probiotics support emotional recovery",
+    "reason": "Warm spices and soft texture feel nurturing",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Moody",
+    "meal_name": "Couscous Salad w/ Citrus & Mint",
+    "calories": 310,
+    "benefit": "Vitamin C and herbs refresh mental clarity",
+    "reason": "Fluffy grains and bright flavors awaken senses",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Homesick",
+    "meal_name": "Rasam Rice w/ Ghee",
+    "calories": 330,
+    "benefit": "Spices and warmth soothe emotional chill",
+    "reason": "Tangy broth and soft rice recreate home comfort",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Foggy",
+    "meal_name": "Grilled Zucchini w/ Lemon & Feta",
+    "calories": 270,
+    "benefit": "Calcium and citrus sharpen focus",
+    "reason": "Charred texture and tangy topping stimulate clarity",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Mentally Fatigued",
+    "meal_name": "Rice Kheer w/ Cardamom",
+    "calories": 350,
+    "benefit": "Milk and spice soothe emotional depletion",
+    "reason": "Creamy sweetness and aroma evoke comfort and ritual",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Distracted",
+    "meal_name": "Avocado Cucumber Sushi Rolls",
+    "calories": 290,
+    "benefit": "Healthy fats and sea minerals boost cognition",
+    "reason": "Clean flavors and tactile eating re-engage attention",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Foggy",
+    "meal_name": "Vegetable Stew w/ Barley",
+    "calories": 400,
+    "benefit": "Fiber and warmth restore emotional steadiness",
+    "reason": "Hearty texture and slow-cooked depth feel grounding",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Sad",
+    "meal_name": "Spiced Apple Chutney w/ Roti",
+    "calories": 320,
+    "benefit": "Pectin and cinnamon regulate mood",
+    "reason": "Sweet-tart balance and warm bread soothe irritability",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Comfort-Food"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Sluggish",
+    "meal_name": "Lentil Pancakes (Adai) w/ Tomato Chutney",
+    "calories": 380,
+    "benefit": "Protein and spice improve mental clarity",
+    "reason": "Savory crunch and tangy dip energize senses",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Cold",
+    "meal_name": "Roasted Root Veggies w/ Rosemary",
+    "calories": 350,
+    "benefit": "Complex carbs and herbs stabilize mood",
+    "reason": "Earthy aroma and caramelized edges feel grounding",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Unfocused",
+    "meal_name": "Pear Compote w/ Clove & Ginger",
+    "calories": 260,
+    "benefit": "Antioxidants and spice support emotional clarity",
+    "reason": "Soft texture and warming notes feel emotionally gentle",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Restless",
+    "meal_name": "Vegetable Spring Rolls w/ Peanut Sauce",
+    "calories": 390,
+    "benefit": "Crunch and protein offer sensory engagement",
+    "reason": "Hand-held format and bold dip reconnect with joy",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Coconut Water w/ Basil Seeds",
+    "calories": 120,
+    "benefit": "Hydration and fiber calm the nervous system",
+    "reason": "Cooling texture and subtle sweetness refresh the mind",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Moody",
+    "meal_name": "Stuffed Eggplant w/ Tamarind Glaze",
+    "calories": 410,
+    "benefit": "Antioxidants and sour notes regulate emotion",
+    "reason": "Bold flavor and rich texture offer emotional release",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+   {
+    "mood_1": "Anxious",
+    "mood_2": "Restless",
+    "meal_name": "Buckwheat Pancakes w/ Blueberries",
+    "calories": 320,
+    "benefit": "Magnesium and antioxidants calm nerves",
+    "reason": "Fluffy texture and sweet-tart berries offer gentle comfort",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Quinoa & Chickpea Salad w/ Lemon Vinaigrette",
+    "calories": 340,
+    "benefit": "Plant protein and vitamin C boost energy",
+    "reason": "Zesty dressing and hearty grains refresh and sustain",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Bored",
+    "meal_name": "Vegetable Sushi Burrito",
+    "calories": 410,
+    "benefit": "Fiber and healthy fats support mood",
+    "reason": "Hand-held novelty and colorful fillings spark joy",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Mentally Fatigued",
+    "meal_name": "Sweet Potato & Black Bean Quesadilla",
+    "calories": 390,
+    "benefit": "Complex carbs and protein restore focus",
+    "reason": "Crispy exterior and creamy filling satisfy and ground",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Homesick",
+    "meal_name": "Dal Tadka w/ Steamed Rice",
+    "calories": 350,
+    "benefit": "Lentils and spices promote serotonin and comfort",
+    "reason": "Classic Indian flavors evoke warmth and belonging",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Foggy",
+    "meal_name": "Spinach & Feta Stuffed Mushrooms",
+    "calories": 270,
+    "benefit": "Iron and B-vitamins support cognition",
+    "reason": "Savory bite-sized format helps reset attention",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Sluggish",
+    "meal_name": "Barley & Vegetable Soup",
+    "calories": 320,
+    "benefit": "Beta-glucans and minerals boost energy",
+    "reason": "Hearty broth and chewy grains feel restorative",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Irritable",
+    "mood_2": "Distracted",
+    "meal_name": "Chili Garlic Noodles w/ Tofu",
+    "calories": 410,
+    "benefit": "Spice and protein regulate mood swings",
+    "reason": "Bold flavors and chewy noodles re-engage the senses",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Bored",
+    "mood_2": "Restless",
+    "meal_name": "Rainbow Veggie Wrap w/ Hummus",
+    "calories": 330,
+    "benefit": "Colorful veggies and fiber energize and uplift",
+    "reason": "Crunchy, vibrant filling and creamy spread excite the palate",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Sad",
+    "meal_name": "Butternut Squash Soup w/ Sage",
+    "calories": 290,
+    "benefit": "Vitamin A and warming herbs soothe and restore",
+    "reason": "Silky texture and earthy aroma provide gentle comfort",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Gloomy",
+    "meal_name": "Lemon Lentil Orzo Soup",
+    "calories": 320,
+    "benefit": "Vitamin C and protein support mood and immunity",
+    "reason": "Bright citrus and soft pasta offer gentle comfort",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Chickpea & Spinach Shakshuka",
+    "calories": 370,
+    "benefit": "Protein and lycopene regulate energy and focus",
+    "reason": "Simmered sauce and hearty chickpeas ground the senses",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Irritable",
+    "meal_name": "Sweet Potato & Lentil Shepherd’s Pie",
+    "calories": 410,
+    "benefit": "Complex carbs and fiber stabilize mood",
+    "reason": "Creamy topping and savory filling feel nurturing",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Tired",
+    "meal_name": "Broccoli & Almond Stir-Fry",
+    "calories": 300,
+    "benefit": "Vitamin E and magnesium boost cognition",
+    "reason": "Crunchy texture and nutty flavor stimulate alertness",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Homesick",
+    "mood_2": "Restless",
+    "meal_name": "Vegetable Sambar w/ Brown Rice",
+    "calories": 390,
+    "benefit": "Lentils and spices support gut and emotional balance",
+    "reason": "Tangy broth and hearty grains evoke home comfort",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Foggy",
+    "mood_2": "Anxious",
+    "meal_name": "Cucumber Avocado Gazpacho",
+    "calories": 210,
+    "benefit": "Hydration and healthy fats calm the mind",
+    "reason": "Cool, creamy soup refreshes and soothes",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Sad",
+    "meal_name": "Chana Masala w/ Millet",
+    "calories": 370,
+    "benefit": "Iron and protein restore energy and mood",
+    "reason": "Spiced chickpeas and nutty millet feel hearty and uplifting",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Roasted Cauliflower Tacos",
+    "calories": 340,
+    "benefit": "Fiber and antioxidants regulate stress hormones",
+    "reason": "Crunchy shells and bold spices offer sensory relief",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Moody",
+    "meal_name": "Egg Drop Soup w/ Spinach",
+    "calories": 220,
+    "benefit": "Protein and minerals support emotional steadiness",
+    "reason": "Silky broth and greens provide gentle nourishment",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "High-Protein"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Sluggish",
+    "meal_name": "Quinoa & Roasted Beet Bowl",
+    "calories": 350,
+    "benefit": "Nitrates and plant protein boost energy",
+    "reason": "Earthy sweetness and hearty grains revive motivation",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Sluggish",
+    "meal_name": "Lentil & Spinach Stew",
+    "calories": 320,
+    "benefit": "Iron and fiber support steady energy and calm",
+    "reason": "Hearty greens and legumes provide grounding comfort",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Cold",
+    "meal_name": "Baked Falafel w/ Tahini Sauce",
+    "calories": 340,
+    "benefit": "Plant protein and sesame fats stabilize mood",
+    "reason": "Crispy texture and creamy dip offer sensory satisfaction",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Homesick",
+    "meal_name": "Vegetable Barley Risotto",
+    "calories": 370,
+    "benefit": "Beta-glucans and slow carbs nurture emotional balance",
+    "reason": "Creamy grains and soft veggies evoke warmth",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Irritable",
+    "meal_name": "Carrot & Ginger Soup",
+    "calories": 210,
+    "benefit": "Vitamin A and ginger boost clarity and mood",
+    "reason": "Bright color and zesty flavor refresh the mind",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Restless",
+    "meal_name": "Roasted Pumpkin & Chickpea Salad",
+    "calories": 330,
+    "benefit": "Beta-carotene and protein support emotional resilience",
+    "reason": "Warm salad and hearty legumes feel uplifting",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Distracted",
+    "meal_name": "Eggplant Stir-Fry w/ Basil",
+    "calories": 290,
+    "benefit": "Antioxidants and herbs boost energy and focus",
+    "reason": "Savory, aromatic flavors awaken the senses",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Sad",
+    "meal_name": "Millet Porridge w/ Dates & Almonds",
+    "calories": 310,
+    "benefit": "Minerals and natural sweetness soothe and energize",
+    "reason": "Warm, creamy texture and gentle flavors comfort",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Unfocused",
+    "meal_name": "Chickpea & Avocado Toast",
+    "calories": 350,
+    "benefit": "Healthy fats and protein regulate mood and attention",
+    "reason": "Creamy and crunchy layers provide sensory reset",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Sluggish",
+    "meal_name": "Vegetable Pho w/ Rice Noodles",
+    "calories": 380,
+    "benefit": "Aromatic broth and rice noodles revive energy",
+    "reason": "Warm, fragrant soup creates a sense of connection",
+    "cultural_theme": "Southeast Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Gloomy",
+    "meal_name": "Stuffed Acorn Squash w/ Wild Rice",
+    "calories": 400,
+    "benefit": "Complex carbs and antioxidants support mood",
+    "reason": "Colorful presentation and hearty filling feel festive",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+{
+    "mood_1": "Moody",
+    "mood_2": "Restless",
+    "meal_name": "Roasted Chickpea Buddha Bowl",
+    "calories": 370,
+    "benefit": "Plant protein and fiber stabilize mood swings",
+    "reason": "Colorful veggies and crispy chickpeas offer sensory variety",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Homesick",
+    "meal_name": "Vegetable Mulligatawny Soup",
+    "calories": 320,
+    "benefit": "Lentils and warming spices restore energy",
+    "reason": "Hearty, aromatic broth evokes comfort and nostalgia",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Distracted",
+    "meal_name": "Edamame & Brown Rice Bowl",
+    "calories": 340,
+    "benefit": "Magnesium and protein calm nerves and support focus",
+    "reason": "Simple, balanced bowl grounds and centers the mind",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Tired",
+    "meal_name": "Roasted Tomato & Lentil Pasta",
+    "calories": 390,
+    "benefit": "Lycopene and plant protein boost mood and energy",
+    "reason": "Rich sauce and hearty pasta feel restorative",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Unfocused",
+    "meal_name": "Sweet Potato & Kale Hash",
+    "calories": 350,
+    "benefit": "Complex carbs and greens support steady energy",
+    "reason": "Colorful, crisp-tender mix re-engages the senses",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Irritable",
+    "meal_name": "Pumpkin & Red Lentil Curry",
+    "calories": 370,
+    "benefit": "Beta-carotene and protein stabilize emotions",
+    "reason": "Creamy, spiced curry soothes and uplifts",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Restless",
+    "meal_name": "Vegetable Udon Noodle Soup",
+    "calories": 330,
+    "benefit": "Warm broth and noodles provide comfort and calm",
+    "reason": "Slurpy texture and gentle flavors ease tension",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Homesick",
+    "mood_2": "Gloomy",
+    "meal_name": "Chickpea & Spinach Stew",
+    "calories": 340,
+    "benefit": "Iron and fiber support emotional resilience",
+    "reason": "Hearty, slow-cooked stew evokes home and warmth",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Sad",
+    "meal_name": "Pearled Barley & Roasted Veggie Bowl",
+    "calories": 360,
+    "benefit": "B-vitamins and fiber support cognition and mood",
+    "reason": "Chewy grains and sweet veggies offer grounding comfort",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Anxious",
+    "meal_name": "Spiced Quinoa Pilaf w/ Peas",
+    "calories": 320,
+    "benefit": "Complete protein and warming spices regulate mood",
+    "reason": "Fluffy grains and gentle heat soothe irritability",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Moody",
+    "meal_name": "Lemon Herb Quinoa Salad",
+    "calories": 310,
+    "benefit": "Vitamin C and magnesium calm nerves and uplift mood",
+    "reason": "Zesty citrus and fresh herbs provide a sensory reset",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Homesick",
+    "meal_name": "Vegetable Jambalaya",
+    "calories": 390,
+    "benefit": "Complex carbs and spices stabilize energy",
+    "reason": "Hearty rice and bold flavors evoke comfort",
+    "cultural_theme": "Creole",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Foggy",
+    "meal_name": "Roasted Carrot & Ginger Soup",
+    "calories": 220,
+    "benefit": "Beta-carotene and ginger support clarity and mood",
+    "reason": "Silky texture and warming spice feel gentle and bright",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Tired",
+    "meal_name": "Chickpea & Spinach Omelette",
+    "calories": 340,
+    "benefit": "Protein and iron boost energy and cognition",
+    "reason": "Savory, fluffy texture and greens restore alertness",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "High-Protein"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Restless",
+    "meal_name": "Stuffed Zucchini Boats",
+    "calories": 330,
+    "benefit": "Fiber and antioxidants support emotional resilience",
+    "reason": "Colorful filling and tender squash feel uplifting",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Distracted",
+    "meal_name": "Peanut Soba Noodle Bowl",
+    "calories": 370,
+    "benefit": "Healthy fats and complex carbs restore energy",
+    "reason": "Nutty sauce and chewy noodles satisfy and focus",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Sad",
+    "meal_name": "Barley & Leek Soup",
+    "calories": 280,
+    "benefit": "Beta-glucans and minerals soothe and restore",
+    "reason": "Warm broth and soft grains provide gentle comfort",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Vegetable Paella",
+    "calories": 400,
+    "benefit": "Saffron and slow carbs regulate mood",
+    "reason": "Colorful rice and vegetables offer festive relief",
+    "cultural_theme": "Spanish",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Moody",
+    "meal_name": "Mushroom Stroganoff",
+    "calories": 350,
+    "benefit": "Umami and B-vitamins support emotional steadiness",
+    "reason": "Creamy sauce and hearty mushrooms feel nurturing",
+    "cultural_theme": "Eastern European",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Sluggish",
+    "meal_name": "Spicy Lentil Tacos",
+    "calories": 370,
+    "benefit": "Protein and spice boost energy and focus",
+    "reason": "Crunchy shells and zesty filling revive motivation",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Anxious",
+    "mood_2": "Restless",
+    "meal_name": "Green Pea & Mint Soup",
+    "calories": 230,
+    "benefit": "Folate and mint calm nerves and refresh the mind",
+    "reason": "Vibrant color and cooling flavor soothe anxiety",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Tired",
+    "mood_2": "Unfocused",
+    "meal_name": "Buckwheat Khichdi w/ Veggies",
+    "calories": 340,
+    "benefit": "Magnesium and fiber restore energy and focus",
+    "reason": "Hearty grains and gentle spices ground the senses",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Homesick",
+    "meal_name": "Vegetable Minestrone",
+    "calories": 310,
+    "benefit": "Vitamins and slow carbs nurture emotional balance",
+    "reason": "Chunky soup and familiar flavors evoke comfort",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Restless",
+    "mood_2": "Distracted",
+    "meal_name": "Sweet Potato & Chickpea Patties",
+    "calories": 320,
+    "benefit": "Complex carbs and protein stabilize energy",
+    "reason": "Crispy exterior and soft center offer sensory satisfaction",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Gloomy",
+    "mood_2": "Sluggish",
+    "meal_name": "Spinach & Lentil Stew",
+    "calories": 300,
+    "benefit": "Iron and antioxidants boost mood and vitality",
+    "reason": "Hearty greens and legumes feel restorative",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Unfocused",
+    "mood_2": "Moody",
+    "meal_name": "Roasted Red Pepper Hummus Wrap",
+    "calories": 350,
+    "benefit": "Vitamin C and healthy fats support cognition",
+    "reason": "Creamy spread and crunchy veggies re-engage the senses",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Cold",
+    "mood_2": "Sad",
+    "meal_name": "Ginger Carrot Soup",
+    "calories": 210,
+    "benefit": "Beta-carotene and ginger soothe and warm",
+    "reason": "Silky texture and spice provide gentle comfort",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Grumpy",
+    "mood_2": "Overwhelmed",
+    "meal_name": "Vegetable Bhel Puri",
+    "calories": 320,
+    "benefit": "Fiber and tangy flavors regulate mood swings",
+    "reason": "Crunchy, spicy, and fresh textures offer sensory reset",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Lonely",
+    "mood_2": "Restless",
+    "meal_name": "Stuffed Grape Leaves",
+    "calories": 260,
+    "benefit": "Healthy fats and herbs support emotional steadiness",
+    "reason": "Hand-held bites and aromatic filling evoke connection",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Sad",
+    "mood_2": "Tired",
+    "meal_name": "Moong Dal Soup w/ Lemon",
+    "calories": 280,
+    "benefit": "Protein and vitamin C restore energy and mood",
+    "reason": "Light, tangy broth and soft lentils feel nurturing",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Gut-Soothing"
+  },
+   {
+    "mood_1": "Inspired",
+    "mood_2": "Hopeful",
+    "meal_name": "Avocado Mango Salsa Bowl",
+    "calories": 320,
+    "benefit": "Vitamin E and C boost creativity and optimism",
+    "reason": "Bright colors and fresh flavors spark inspiration",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Playful",
+    "mood_2": "Curious",
+    "meal_name": "Mini Veggie Sushi Rolls",
+    "calories": 260,
+    "benefit": "Sea minerals and fiber support brain health",
+    "reason": "Bite-sized, hands-on meal encourages fun and exploration",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Confident",
+    "mood_2": "Energized",
+    "meal_name": "Spicy Chickpea Power Bowl",
+    "calories": 410,
+    "benefit": "Protein and spice boost motivation and drive",
+    "reason": "Bold flavors and hearty texture fuel self-assurance",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Content",
+    "mood_2": "Grateful",
+    "meal_name": "Pumpkin Sage Risotto",
+    "calories": 370,
+    "benefit": "Beta-carotene and herbs promote satisfaction and calm",
+    "reason": "Creamy texture and earthy aroma evoke gratitude",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Adventurous",
+    "mood_2": "Excited",
+    "meal_name": "Jackfruit Tacos w/ Pineapple Salsa",
+    "calories": 390,
+    "benefit": "Fiber and vitamin C support gut and immune health",
+    "reason": "Exotic flavors and textures encourage exploration",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Peaceful",
+    "mood_2": "Balanced",
+    "meal_name": "Soba Noodle Salad w/ Edamame",
+    "calories": 340,
+    "benefit": "Complex carbs and plant protein support calm focus",
+    "reason": "Cool noodles and fresh veggies create harmony",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Energized",
+    "mood_2": "Motivated",
+    "meal_name": "Quinoa Breakfast Bowl w/ Berries",
+    "calories": 310,
+    "benefit": "Antioxidants and protein fuel sustained energy",
+    "reason": "Sweet-tart berries and hearty grains kickstart the day",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Curious",
+    "mood_2": "Adventurous",
+    "meal_name": "Kimchi Pancakes",
+    "calories": 350,
+    "benefit": "Probiotics and spice stimulate the mind and palate",
+    "reason": "Tangy, crispy pancakes invite culinary discovery",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Grateful",
+    "mood_2": "Peaceful",
+    "meal_name": "Lemon Basil Couscous",
+    "calories": 280,
+    "benefit": "Vitamin C and calming herbs support emotional balance",
+    "reason": "Light, fragrant grains evoke a sense of ease",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Hopeful",
+    "mood_2": "Content",
+    "meal_name": "Sweet Potato & Lentil Patties",
+    "calories": 320,
+    "benefit": "Complex carbs and protein promote optimism and satiety",
+    "reason": "Golden color and soft texture foster hopefulness",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Empowered",
+    "mood_2": "Focused",
+    "meal_name": "Chia Pudding w/ Berries & Almonds",
+    "calories": 320,
+    "benefit": "Omega-3s and antioxidants support brain power",
+    "reason": "Creamy texture and tart berries sharpen attention",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Playful",
+    "mood_2": "Inspired",
+    "meal_name": "Rainbow Rice Paper Rolls",
+    "calories": 270,
+    "benefit": "Colorful veggies and herbs boost creativity",
+    "reason": "Hands-on assembly and vibrant colors spark joy",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Peaceful",
+    "mood_2": "Grateful",
+    "meal_name": "Mango Coconut Chia Bowl",
+    "calories": 310,
+    "benefit": "Healthy fats and vitamin C promote calm and gratitude",
+    "reason": "Tropical flavors and creamy texture evoke serenity",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Adventurous",
+    "mood_2": "Curious",
+    "meal_name": "Stuffed Bell Peppers w/ Spiced Millet",
+    "calories": 350,
+    "benefit": "Whole grains and spices energize and excite",
+    "reason": "Unusual filling and bold flavors encourage exploration",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Hopeful",
+    "mood_2": "Energized",
+    "meal_name": "Lemon Tahini Chickpea Salad",
+    "calories": 330,
+    "benefit": "Vitamin C and protein boost optimism and stamina",
+    "reason": "Zesty dressing and hearty legumes feel uplifting",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Confident",
+    "mood_2": "Playful",
+    "meal_name": "Sweet Potato Sushi Rolls",
+    "calories": 300,
+    "benefit": "Complex carbs and seaweed support mood and fun",
+    "reason": "Hand-rolled format and sweet-savory taste inspire confidence",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Content",
+    "mood_2": "Peaceful",
+    "meal_name": "Herbed Lentil & Quinoa Pilaf",
+    "calories": 340,
+    "benefit": "Plant protein and herbs promote satisfaction and calm",
+    "reason": "Earthy flavors and fluffy grains foster tranquility",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Inspired",
+    "mood_2": "Empowered",
+    "meal_name": "Roasted Beet & Walnut Salad",
+    "calories": 320,
+    "benefit": "Nitrates and omega-3s boost creativity and drive",
+    "reason": "Vivid color and crunch stimulate motivation",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Playful",
+    "mood_2": "Adventurous",
+    "meal_name": "Mini Lentil Sliders w/ Avocado",
+    "calories": 350,
+    "benefit": "Fiber and healthy fats support energy and fun",
+    "reason": "Bite-sized format and creamy topping encourage play",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Grateful",
+    "mood_2": "Hopeful",
+    "meal_name": "Orange Almond Couscous",
+    "calories": 310,
+    "benefit": "Vitamin C and healthy fats nurture optimism",
+    "reason": "Citrus aroma and nutty crunch evoke gratitude",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Optimistic",
+    "mood_2": "Cheerful",
+    "meal_name": "Sunshine Citrus Quinoa Salad",
+    "calories": 320,
+    "benefit": "Vitamin C and antioxidants boost mood and immunity",
+    "reason": "Bright citrus and fluffy grains evoke happiness",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Reflective",
+    "mood_2": "Calm",
+    "meal_name": "Miso Mushroom Soup",
+    "calories": 180,
+    "benefit": "Umami and probiotics support gut-brain balance",
+    "reason": "Earthy broth and gentle flavors encourage mindfulness",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Excited",
+    "mood_2": "Playful",
+    "meal_name": "Stuffed Sweet Peppers w/ Corn Salsa",
+    "calories": 340,
+    "benefit": "Fiber and vitamin B6 support energy and joy",
+    "reason": "Colorful, hand-held bites make eating fun",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Peaceful",
+    "mood_2": "Inspired",
+    "meal_name": "Basil Pesto Zoodle Bowl",
+    "calories": 270,
+    "benefit": "Healthy fats and greens promote calm creativity",
+    "reason": "Fresh herbs and spiralized veggies feel light and uplifting",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Motivated",
+    "mood_2": "Confident",
+    "meal_name": "Black Bean & Avocado Power Wrap",
+    "calories": 390,
+    "benefit": "Protein and healthy fats fuel drive and self-assurance",
+    "reason": "Hearty filling and creamy texture energize and satisfy",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Curious",
+    "mood_2": "Reflective",
+    "meal_name": "Roasted Cauliflower & Tahini Bowl",
+    "calories": 310,
+    "benefit": "Minerals and healthy fats support brain health",
+    "reason": "Nutty sauce and roasted veggies invite thoughtful eating",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Grateful",
+    "mood_2": "Content",
+    "meal_name": "Apple Walnut Farro Salad",
+    "calories": 350,
+    "benefit": "Fiber and omega-3s promote satisfaction and gratitude",
+    "reason": "Sweet crunch and chewy grains evoke abundance",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Adventurous",
+    "mood_2": "Motivated",
+    "meal_name": "Spicy Peanut Noodle Stir-Fry",
+    "calories": 400,
+    "benefit": "Protein and spice boost energy and courage",
+    "reason": "Bold flavors and chewy noodles inspire action",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Calm",
+    "mood_2": "Hopeful",
+    "meal_name": "Lemon Dill Chickpea Soup",
+    "calories": 290,
+    "benefit": "Vitamin C and herbs support relaxation and optimism",
+    "reason": "Light broth and fresh herbs create a sense of renewal",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Playful",
+    "mood_2": "Cheerful",
+    "meal_name": "Fruit Skewers w/ Yogurt Dip",
+    "calories": 210,
+    "benefit": "Natural sugars and probiotics boost mood and gut health",
+    "reason": "Colorful, interactive snack brings out joy",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Inspired",
+    "mood_2": "Motivated",
+    "meal_name": "Roasted Veggie & Quinoa Power Bowl",
+    "calories": 370,
+    "benefit": "Antioxidants and protein fuel creativity and drive",
+    "reason": "Colorful veggies and hearty grains spark action",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Cheerful",
+    "mood_2": "Playful",
+    "meal_name": "Mango Salsa Lettuce Cups",
+    "calories": 220,
+    "benefit": "Vitamin C and fiber boost mood and energy",
+    "reason": "Hand-held, juicy bites bring out fun and lightness",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Calm",
+    "mood_2": "Reflective",
+    "meal_name": "Lotus Root & Edamame Stir-Fry",
+    "calories": 290,
+    "benefit": "Plant protein and minerals support tranquility",
+    "reason": "Unique texture and gentle flavors encourage mindfulness",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Confident",
+    "mood_2": "Hopeful",
+    "meal_name": "Pesto Chickpea Pasta",
+    "calories": 410,
+    "benefit": "Protein and healthy fats support optimism and self-assurance",
+    "reason": "Bright green sauce and hearty pasta feel empowering",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Adventurous",
+    "mood_2": "Grateful",
+    "meal_name": "Moroccan Spiced Vegetable Tagine",
+    "calories": 380,
+    "benefit": "Spices and slow-cooked veggies nurture gratitude and curiosity",
+    "reason": "Exotic aroma and rich sauce inspire appreciation",
+    "cultural_theme": "African",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Energized",
+    "mood_2": "Inspired",
+    "meal_name": "Berry Millet Breakfast Bowl",
+    "calories": 320,
+    "benefit": "Antioxidants and whole grains fuel morning creativity",
+    "reason": "Sweet-tart berries and fluffy millet awaken the senses",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Peaceful",
+    "mood_2": "Optimistic",
+    "meal_name": "Lemon Asparagus Risotto",
+    "calories": 350,
+    "benefit": "Vitamin C and folate support calm and hope",
+    "reason": "Creamy rice and bright citrus evoke renewal",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Curious",
+    "mood_2": "Motivated",
+    "meal_name": "Thai Basil Tofu Stir-Fry",
+    "calories": 340,
+    "benefit": "Herbs and plant protein boost focus and drive",
+    "reason": "Aromatic basil and savory tofu inspire exploration",
+    "cultural_theme": "Southeast Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Grateful",
+    "mood_2": "Calm",
+    "meal_name": "Pumpkin Lentil Soup",
+    "calories": 300,
+    "benefit": "Beta-carotene and protein promote peace and gratitude",
+    "reason": "Silky texture and gentle spice foster contentment",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Excited",
+    "mood_2": "Inspired",
+    "meal_name": "Stuffed Eggplant Rolls w/ Walnut Sauce",
+    "calories": 360,
+    "benefit": "Healthy fats and antioxidants fuel creative excitement",
+    "reason": "Elegant presentation and bold flavors spark new ideas",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Triumphant",
+    "mood_2": "Relieved",
+    "meal_name": "Roasted Garlic Chickpea Soup",
+    "calories": 320,
+    "benefit": "Garlic and legumes support immune and emotional release",
+    "reason": "Creamy texture and savory depth evoke accomplishment",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Nostalgic",
+    "mood_2": "Playful",
+    "meal_name": "Vegetable Mac & Cheese",
+    "calories": 410,
+    "benefit": "Calcium and B-vitamins support comfort and joy",
+    "reason": "Creamy sauce and familiar flavors spark childhood memories",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Surprised",
+    "mood_2": "Curious",
+    "meal_name": "Stuffed Squash Blossoms",
+    "calories": 260,
+    "benefit": "Antioxidants and novelty stimulate the mind",
+    "reason": "Delicate texture and unique filling inspire wonder",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Proud",
+    "mood_2": "Energized",
+    "meal_name": "Spicy Lentil & Spinach Wrap",
+    "calories": 350,
+    "benefit": "Iron and spice boost vitality and self-esteem",
+    "reason": "Bold flavors and hearty filling feel empowering",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Relaxed",
+    "mood_2": "Thankful",
+    "meal_name": "Coconut Rice Pudding w/ Cardamom",
+    "calories": 300,
+    "benefit": "Healthy fats and spice promote calm and gratitude",
+    "reason": "Creamy sweetness and aroma foster relaxation",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Hopeful",
+    "mood_2": "Rejuvenated",
+    "meal_name": "Spring Pea & Mint Risotto",
+    "calories": 340,
+    "benefit": "Fresh greens and herbs support renewal",
+    "reason": "Bright color and light flavor evoke new beginnings",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Determined",
+    "mood_2": "Focused",
+    "meal_name": "Black Bean & Quinoa Chili",
+    "calories": 390,
+    "benefit": "Protein and fiber sustain energy and attention",
+    "reason": "Hearty, spicy bowl keeps you on track",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Playful",
+    "mood_2": "Surprised",
+    "meal_name": "Rainbow Veggie Sushi Donuts",
+    "calories": 280,
+    "benefit": "Colorful veggies and rice boost mood and curiosity",
+    "reason": "Fun shapes and vibrant colors delight the senses",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Peaceful",
+    "mood_2": "Reflective",
+    "meal_name": "Lavender Lemon Tea Cake",
+    "calories": 240,
+    "benefit": "Lavender and citrus promote calm and introspection",
+    "reason": "Floral aroma and soft crumb encourage mindfulness",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Inspired",
+    "mood_2": "Adventurous",
+    "meal_name": "Harissa Roasted Vegetable Couscous",
+    "calories": 370,
+    "benefit": "Spices and whole grains fuel creativity and exploration",
+    "reason": "Bold flavors and varied textures spark new ideas",
+    "cultural_theme": "North African",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Victorious",
+    "mood_2": "Playful",
+    "meal_name": "Chickpea Tikka Lettuce Boats",
+    "calories": 320,
+    "benefit": "Protein and spice boost confidence and joy",
+    "reason": "Hand-held, zesty bites celebrate small wins",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Wistful",
+    "mood_2": "Hopeful",
+    "meal_name": "Lemon Poppyseed Millet Muffins",
+    "calories": 210,
+    "benefit": "Citrus and seeds support gentle optimism",
+    "reason": "Bright flavor and soft crumb evoke new beginnings",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Amazed",
+    "mood_2": "Grateful",
+    "meal_name": "Roasted Rainbow Carrot Salad",
+    "calories": 260,
+    "benefit": "Phytonutrients and color inspire awe and gratitude",
+    "reason": "Vivid hues and sweet roast flavor delight the senses",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Secure",
+    "mood_2": "Balanced",
+    "meal_name": "Brown Rice & Edamame Buddha Bowl",
+    "calories": 340,
+    "benefit": "Complex carbs and plant protein foster stability",
+    "reason": "Hearty grains and green beans create inner calm",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Euphoric",
+    "mood_2": "Curious",
+    "meal_name": "Dragonfruit Chia Pudding",
+    "calories": 240,
+    "benefit": "Antioxidants and omega-3s spark joy and exploration",
+    "reason": "Exotic color and creamy texture excite the palate",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Grounded",
+    "mood_2": "Motivated",
+    "meal_name": "Sweet Potato & Lentil Power Bowl",
+    "calories": 370,
+    "benefit": "Complex carbs and protein support steady drive",
+    "reason": "Earthy flavors and hearty texture fuel ambition",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Tender",
+    "mood_2": "Inspired",
+    "meal_name": "Roasted Pear & Walnut Salad",
+    "calories": 310,
+    "benefit": "Healthy fats and fruit nurture creativity",
+    "reason": "Soft sweetness and crunch inspire gentle ideas",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Playful",
+    "mood_2": "Reflective",
+    "meal_name": "Mini Spinach & Cheese Empanadas",
+    "calories": 280,
+    "benefit": "Iron and calcium support mood and contemplation",
+    "reason": "Hand pies and savory filling invite mindful fun",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Serene",
+    "mood_2": "Energized",
+    "meal_name": "Matcha Oat Breakfast Bowl",
+    "calories": 290,
+    "benefit": "L-theanine and fiber balance calm and alertness",
+    "reason": "Green tea and oats create a peaceful start",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Adventurous",
+    "mood_2": "Wistful",
+    "meal_name": "Saffron Rice w/ Roasted Pistachios",
+    "calories": 330,
+    "benefit": "Saffron and nuts evoke nostalgia and boldness",
+    "reason": "Golden color and rich aroma inspire travel dreams",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Blissful",
+    "mood_2": "Grounded",
+    "meal_name": "Coconut Mango Rice Pudding",
+    "calories": 320,
+    "benefit": "Healthy fats and tropical fruit support joy and stability",
+    "reason": "Creamy texture and sweet flavor evoke peaceful contentment",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Alert",
+    "mood_2": "Cheerful",
+    "meal_name": "Lemon Spinach Chickpea Stir-Fry",
+    "calories": 290,
+    "benefit": "Vitamin C and plant protein boost focus and happiness",
+    "reason": "Zesty aroma and bright greens awaken the senses",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Playful",
+    "mood_2": "Secure",
+    "meal_name": "Mini Lentil Pizza Bites",
+    "calories": 260,
+    "benefit": "Fiber and protein support mood and confidence",
+    "reason": "Hand-held, familiar flavors offer comfort and fun",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Energized",
+    "mood_2": "Reflective",
+    "meal_name": "Roasted Beet & Orange Salad",
+    "calories": 240,
+    "benefit": "Nitrates and vitamin C support energy and introspection",
+    "reason": "Vivid color and citrus aroma inspire thoughtful action",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Motivated",
+    "mood_2": "Blissful",
+    "meal_name": "Quinoa Tabbouleh w/ Pomegranate",
+    "calories": 270,
+    "benefit": "Antioxidants and whole grains fuel joy and drive",
+    "reason": "Juicy seeds and fresh herbs create a sense of celebration",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Thankful",
+    "mood_2": "Serene",
+    "meal_name": "Sweet Potato & Sage Soup",
+    "calories": 220,
+    "benefit": "Beta-carotene and calming herbs nurture gratitude and peace",
+    "reason": "Silky texture and earthy aroma foster relaxation",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Curious",
+    "mood_2": "Blissful",
+    "meal_name": "Mango Avocado Summer Rolls",
+    "calories": 210,
+    "benefit": "Healthy fats and vitamin C spark joy and exploration",
+    "reason": "Fresh, hand-rolled bites encourage mindful eating",
+    "cultural_theme": "Southeast Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Confident",
+    "mood_2": "Calm",
+    "meal_name": "Herbed Chickpea Flatbread",
+    "calories": 280,
+    "benefit": "Protein and herbs support self-assurance and tranquility",
+    "reason": "Savory aroma and soft texture create inner balance",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Gluten-Free"
+  },
+  {
+    "mood_1": "Wistful",
+    "mood_2": "Alert",
+    "meal_name": "Orange Cardamom Millet Porridge",
+    "calories": 230,
+    "benefit": "Citrus and spice awaken memory and focus",
+    "reason": "Warm, nostalgic flavors brighten the morning",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Tender",
+    "mood_2": "Cheerful",
+    "meal_name": "Strawberry Basil Couscous Salad",
+    "calories": 250,
+    "benefit": "Vitamin C and fresh herbs support gentle happiness",
+    "reason": "Juicy berries and fluffy grains evoke lightheartedness",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Radiant",
+    "mood_2": "Centered",
+    "meal_name": "Golden Turmeric Rice Bowl",
+    "calories": 340,
+    "benefit": "Curcumin and whole grains support balance and vitality",
+    "reason": "Warm color and earthy aroma foster inner glow",
+    "cultural_theme": "South Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Playful",
+    "mood_2": "Grounded",
+    "meal_name": "Sweet Potato Nachos",
+    "calories": 370,
+    "benefit": "Complex carbs and fiber stabilize energy and mood",
+    "reason": "Crispy, colorful layers offer fun and comfort",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Energized",
+    "mood_2": "Thankful",
+    "meal_name": "Cranberry Walnut Quinoa Salad",
+    "calories": 320,
+    "benefit": "Antioxidants and protein fuel gratitude and drive",
+    "reason": "Tart berries and crunchy nuts inspire appreciation",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Whole-Food"
+  },
+  {
+    "mood_1": "Hopeful",
+    "mood_2": "Secure",
+    "meal_name": "Lentil Shepherd’s Pie",
+    "calories": 390,
+    "benefit": "Plant protein and root veggies nurture optimism and safety",
+    "reason": "Hearty layers and savory filling evoke reassurance",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Motivated",
+    "mood_2": "Reflective",
+    "meal_name": "Roasted Cauliflower & Chickpea Tacos",
+    "calories": 350,
+    "benefit": "Fiber and protein support drive and contemplation",
+    "reason": "Bold spices and hearty texture inspire thoughtful action",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Cheerful",
+    "mood_2": "Centered",
+    "meal_name": "Pineapple Fried Rice",
+    "calories": 380,
+    "benefit": "Vitamin C and whole grains support happiness and balance",
+    "reason": "Tropical sweetness and savory notes create harmony",
+    "cultural_theme": "Southeast Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Blissful",
+    "mood_2": "Curious",
+    "meal_name": "Mango Coconut Chia Parfait",
+    "calories": 260,
+    "benefit": "Healthy fats and vitamin C spark joy and exploration",
+    "reason": "Layered textures and tropical flavors delight the senses",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Serene",
+    "mood_2": "Motivated",
+    "meal_name": "Lemon Herb Farro Bowl",
+    "calories": 330,
+    "benefit": "Whole grains and citrus promote calm energy",
+    "reason": "Chewy grains and bright herbs foster peaceful drive",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Tender",
+    "mood_2": "Balanced",
+    "meal_name": "Carrot Ginger Lentil Stew",
+    "calories": 310,
+    "benefit": "Beta-carotene and protein support gentle equilibrium",
+    "reason": "Silky texture and warming spice nurture harmony",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Amazed",
+    "mood_2": "Playful",
+    "meal_name": "Dragonfruit & Kiwi Fruit Salad",
+    "calories": 210,
+    "benefit": "Vitamin C and antioxidants inspire wonder and fun",
+    "reason": "Vivid colors and juicy textures excite the palate",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Invigorated",
+    "mood_2": "Playful",
+    "meal_name": "Citrus Avocado Chickpea Salad",
+    "calories": 310,
+    "benefit": "Vitamin C and healthy fats boost energy and joy",
+    "reason": "Zesty citrus and creamy avocado create a lively bite",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Centered",
+    "mood_2": "Hopeful",
+    "meal_name": "Sesame Spinach Rice Bowl",
+    "calories": 320,
+    "benefit": "Magnesium and sesame support calm optimism",
+    "reason": "Nutty aroma and soft greens foster inner balance",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Energized",
+    "mood_2": "Wistful",
+    "meal_name": "Roasted Corn & Tomato Soup",
+    "calories": 250,
+    "benefit": "Lycopene and fiber fuel nostalgia and drive",
+    "reason": "Sweet corn and tangy tomato evoke summer memories",
+    "cultural_theme": "Western Comfort",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Grateful",
+    "mood_2": "Motivated",
+    "meal_name": "Walnut Pesto Pasta w/ Greens",
+    "calories": 370,
+    "benefit": "Omega-3s and greens support ambition and gratitude",
+    "reason": "Rich pesto and hearty pasta inspire action",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Reflective",
+    "mood_2": "Excited",
+    "meal_name": "Spiced Lentil & Carrot Patties",
+    "calories": 280,
+    "benefit": "Beta-carotene and spice balance thought and enthusiasm",
+    "reason": "Crispy edges and warm spice spark new ideas",
+    "cultural_theme": "Fusion",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Secure",
+    "mood_2": "Inspired",
+    "meal_name": "Eggplant & Tomato Bake",
+    "calories": 330,
+    "benefit": "Antioxidants and fiber support creativity and comfort",
+    "reason": "Layered veggies and herbs feel both safe and uplifting",
+    "cultural_theme": "Mediterranean",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Cheerful",
+    "mood_2": "Grounded",
+    "meal_name": "Sweet Potato & Black Bean Burrito",
+    "calories": 390,
+    "benefit": "Complex carbs and protein stabilize mood and energy",
+    "reason": "Hearty filling and warm spices create happiness",
+    "cultural_theme": "Latin American",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Blissful",
+    "mood_2": "Reflective",
+    "meal_name": "Rosewater Rice Pudding",
+    "calories": 260,
+    "benefit": "Aromatic rose and creamy rice nurture joy and thoughtfulness",
+    "reason": "Floral notes and soft texture evoke gentle memories",
+    "cultural_theme": "Middle Eastern",
+    "dietary_theme": "Vegetarian"
+  },
+  {
+    "mood_1": "Adventurous",
+    "mood_2": "Centered",
+    "meal_name": "Miso Glazed Tofu w/ Bok Choy",
+    "calories": 340,
+    "benefit": "Fermented miso and greens support gut and focus",
+    "reason": "Umami glaze and crisp greens ground boldness",
+    "cultural_theme": "East Asian",
+    "dietary_theme": "Vegan"
+  },
+  {
+    "mood_1": "Optimistic",
+    "mood_2": "Playful",
+    "meal_name": "Pineapple Chickpea Stir-Fry",
+    "calories": 320,
+    "benefit": "Vitamin C and protein boost hope and fun",
+    "reason": "Sweet pineapple and savory chickpeas create a lively meal",
+    "cultural_theme": "Southeast Asian",
+    "dietary_theme": "Vegan"
+  }
+]

@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+streamlit
+transformers
+sentence-transformers
+faiss-cpu
+torch
+numpy
+requests
+python-multipart
+audio-recorder-streamlit
+gtts

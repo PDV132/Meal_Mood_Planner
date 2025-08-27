@@ -1,0 +1,448 @@
+import streamlit as st
+import requests
+from audio_recorder_streamlit import audio_recorder
+import base64
+from datetime import datetime
+from components.preferences import save_dietary_preferences
+
+# Page configuration
+st.set_page_config(
+    page_title="🧠 AI Mood Meal Assistant",
+    page_icon="🍽️",
+    layout="wide"
+)
+
+# Page configuration
+st.set_page_config(
+    page_title="🧠 AI Mood Meal Assistant",
+    page_icon="🍽️",
+    layout="wide"
+)
+
+# Custom CSS for styling
+st.markdown("""
+    <style>
+    /* Global font settings */
+    .main {
+        background: linear-gradient(135deg, #F0E6FF 0%, #E6E6FA 100%);
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 18px !important;
+    }
+    
+    /* Heading styles */
+    h1 {
+        text-align: center;
+        color: #2C3E50;
+        font-weight: 800;
+        font-size: 40px !important;
+        text-shadow: 2px 2px 4px rgba(150, 131, 236, 0.2);
+        margin-bottom: 30px;
+        line-height: 1.4 !important;
+    }
+
+    h2 {
+        color: #2C3E50;
+        font-weight: 600;
+        font-size: 28px !important;
+        margin-bottom: 20px;
+        line-height: 1.4 !important;
+    }
+
+    h3 {
+        color: #2C3E50;
+        font-weight: 600;
+        font-size: 24px !important;
+        margin-bottom: 15px;
+        line-height: 1.4 !important;
+    }
+
+    /* Increase font size for all paragraphs */
+    p {
+        font-size: 18px !important;
+        line-height: 1.6 !important;
+    }
+    
+    /* Make labels and text inputs larger */
+    .stTextInput label, .stTextArea label, .stSelectbox label, .stMultiSelect label {
+        font-size: 18px !important;
+        font-weight: 500 !important;
+        color: #2C3E50 !important;
+    }
+    
+    .stButton>button {
+        width: 100%;
+        border-radius: 20px;
+        height: 3.5em;
+        background: linear-gradient(45deg, #9683EC, #B19CD9);
+        color: white;
+        border: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        font-size: 18px !important;
+    }
+    
+    .stButton>button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(150, 131, 236, 0.3);
+        background: linear-gradient(45deg, #8A73E0, #9683EC);
+    }
+    
+    .big-font {
+        font-size: 32px !important;
+        background: linear-gradient(120deg, #9683EC, #B19CD9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        line-height: 1.4 !important;
+    }
+    
+    /* Make radio buttons and checkboxes larger */
+    .stRadio label, .stCheckbox label {
+        font-size: 18px !important;
+    }
+
+    .success-message {
+        padding: 18px;
+        border-radius: 10px;
+        background: linear-gradient(45deg, #9683EC, #B19CD9);
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin: 15px 0;
+        font-size: 18px !important;
+    }
+    
+    /* Component-specific styles */
+    
+    .big-font {
+        font-size: 32px !important;
+        background: linear-gradient(120deg, #9683EC, #B19CD9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        line-height: 1.4 !important;
+    }
+    
+    /* Make radio buttons and checkboxes larger */
+    .stRadio label, .stCheckbox label {
+        font-size: 18px !important;
+    }
+    
+    /* Increase size of select boxes and dropdowns */
+    .stSelectbox > div > div, .stMultiSelect > div > div {
+        font-size: 18px !important;
+    }
+    .mood-box {
+        padding: 25px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 8px 20px rgba(150, 131, 236, 0.15);
+        border: 1px solid rgba(177, 156, 217, 0.18);
+        backdrop-filter: blur(4px);
+        margin: 15px 0;
+        transition: transform 0.3s ease;
+        font-size: 18px !important;
+    }
+    .mood-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 24px rgba(150, 131, 236, 0.2);
+    }
+    .mood-box p {
+        font-size: 18px !important;
+        line-height: 1.6 !important;
+        margin-bottom: 12px;
+    }
+    .meal-box {
+        padding: 30px;
+        border-radius: 20px;
+        background: linear-gradient(135deg, #F5F0FF, #E6E6FA);
+        box-shadow: 0 8px 20px rgba(150, 131, 236, 0.15);
+        margin: 20px 0;
+        border: 1px solid rgba(177, 156, 217, 0.18);
+        transition: all 0.3s ease;
+        font-size: 18px !important;
+    }
+    .meal-box:hover {
+        transform: scale(1.02);
+        box-shadow: 0 12px 24px rgba(150, 131, 236, 0.25);
+        background: linear-gradient(135deg, #E6E6FA, #F0E6FF);
+    }
+    .meal-box p, .meal-box li {
+        font-size: 18px !important;
+        line-height: 1.6 !important;
+        margin-bottom: 10px;
+    }
+    .preferences-box {
+        background: linear-gradient(135deg, #F5F0FF, #E6E6FA);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(150, 131, 236, 0.15);
+        margin: 20px 0;
+        border: 1px solid rgba(177, 156, 217, 0.18);
+    }
+    .stTextInput>div>div>input {
+        border-radius: 10px;
+        border: 2px solid #A6D5E9;
+        background: rgba(255, 255, 255, 0.9);
+    }
+    .stMultiSelect>div>div>div {
+        background: linear-gradient(45deg, #F0F9FF, #E8F3F9);
+        border-radius: 15px;
+        border: 1px solid rgba(166, 213, 233, 0.3);
+        color: #2C3E50;
+    }
+    .error-message {
+        padding: 15px;
+        border-radius: 10px;
+        background: linear-gradient(45deg, #FFD1D1, #FFE3E3);
+        color: #2C3E50;
+        text-align: center;
+        font-weight: bold;
+        margin: 10px 0;
+        border: 1px solid rgba(255, 209, 209, 0.3);
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+def main():
+    # Header with colorful emojis
+    st.markdown("""
+        <h1>🧠 AI Mood Meal Assistant 🍽️</h1>
+        <style>
+            h1 {
+                background: linear-gradient(120deg, #9683EC, #B19CD9);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-align: center;
+                padding: 20px;
+                font-family: 'Helvetica Neue', sans-serif;
+                letter-spacing: 1px;
+                text-shadow: 2px 2px 4px rgba(150, 131, 236, 0.2);
+            }
+        </style>
+    """, unsafe_allow_html=True)
+    
+    # Create tabs with custom styling
+    st.markdown("""
+        <style>
+        .stTabs [data-baseweb="tab-list"] {
+            gap: 24px;
+            background: linear-gradient(to right, rgba(177, 156, 217, 0.2), rgba(150, 131, 236, 0.2));
+            border-radius: 15px;
+            padding: 10px;
+            border: 1px solid rgba(177, 156, 217, 0.3);
+        }
+        .stTabs [data-baseweb="tab"] {
+            height: 50px;
+            background-color: transparent;
+            border-radius: 10px;
+            color: #2C3E50;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .stTabs [aria-selected="true"] {
+            background: linear-gradient(45deg, #9683EC, #B19CD9);
+            color: white;
+            box-shadow: 0 4px 15px rgba(150, 131, 236, 0.2);
+        }
+        .stTabs [data-baseweb="tab"]:hover:not([aria-selected="true"]) {
+            background: linear-gradient(45deg, rgba(150, 131, 236, 0.1), rgba(177, 156, 217, 0.1));
+            color: #9683EC;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+    
+    # Initialize session state for preferences if not exists
+    if 'preferences_saved' not in st.session_state:
+        st.session_state.preferences_saved = False
+
+    tab1, tab2 = st.tabs(["🍳 Get Meal Suggestions", "⚙️ Dietary Preferences"])
+    
+    with tab2:
+        preferences_saved = save_dietary_preferences()
+        # If preferences were saved, automatically switch to the meal suggestions tab
+        if preferences_saved and st.session_state.preferences_saved:
+            st.session_state.active_tab = "meal_suggestions"
+            st.experimental_rerun()
+    
+    with tab1:
+        st.markdown("""
+            <p class="big-font">✨ Tell me how you're feeling, and I'll suggest the perfect meal for your mood! ✨</p>
+        """, unsafe_allow_html=True)
+    
+    # Sidebar with additional information
+    with st.sidebar:
+        st.header("About")
+        st.write("""
+        This AI-powered assistant uses advanced mood analysis to recommend 
+        personalized meals that match your emotional state. Whether you're feeling 
+        happy, stressed, or somewhere in between, we'll find the perfect dish for you!
+        """)
+        
+        st.header("Features")
+        st.markdown("""
+        - 🎯 Smart Mood Detection
+        - 🍳 Personalized Recommendations
+        - 🌍 Global Cuisine Options
+        - 🥗 Dietary Preference Support
+        """)
+
+    # Main content
+    col1, col2 = st.columns([2, 1])
+    
+    with col1:
+        # Input methods
+        input_method = st.radio(
+            "How would you like to share your mood?",
+            ["Text", "Voice Recording"],
+            horizontal=True
+        )
+
+        if input_method == "Text":
+            with st.container():
+                st.markdown('<div class="mood-box">', unsafe_allow_html=True)
+                user_input = st.text_area(
+                    "Describe your current mood:",
+                    height=100,
+                    placeholder="Example: I'm feeling a bit stressed and tired after a long day..."
+                )
+                submit_button = st.button("Get Meal Suggestion")
+                st.markdown('</div>', unsafe_allow_html=True)
+
+                if submit_button and user_input:
+                    try:
+                        with st.spinner("Analyzing your mood and finding the perfect meal..."):
+                            response = requests.post(
+                                "http://localhost:8000/api/mood/text",
+                                json={"text": user_input}
+                            )
+                            if response.status_code == 200:
+                                result = response.json()
+                                display_recommendation(result)
+                            else:
+                                st.error("Error getting recommendation. Please try again.")
+                    except Exception as e:
+                        st.error("Error connecting to the server. Please make sure the backend is running.")
+
+        else:  # Voice Recording
+            with st.container():
+                st.markdown('<div class="mood-box">', unsafe_allow_html=True)
+                st.write("Click the button below and speak about your current mood:")
+                audio_bytes = audio_recorder()
+                if audio_bytes:
+                    st.audio(audio_bytes, format="audio/wav")
+                    analyze_button = st.button("Analyze Voice")
+                    if analyze_button:
+                        try:
+                            with st.spinner("Analyzing your voice..."):
+                                audio_b64 = base64.b64encode(audio_bytes).decode()
+                                # First convert audio to text
+                                text_response = requests.post(
+                                    "http://localhost:8000/api/voice/analyze-voice",
+                                    files={"audio": ("recording.wav", audio_bytes, "audio/wav")}
+                                )
+                                
+                                if text_response.status_code == 200:
+                                    text_result = text_response.json()
+                                    st.info(f"Transcribed text: {text_result['text']}")
+                                    
+                                    # Now get meal recommendation based on the text
+                                    response = requests.post(
+                                        "http://localhost:8000/api/mood/text",
+                                        json={"text": text_result['text']}
+                                    )
+                                    
+                                    if response.status_code == 200:
+                                        result = response.json()
+                                        display_recommendation(result)
+                                    else:
+                                        st.error("Error getting meal recommendations. Please try again.")
+                                else:
+                                    st.error("Error analyzing voice. Please try again.")
+                        except Exception as e:
+                            st.error("Error connecting to the server. Please make sure the backend is running.")
+                st.markdown('</div>', unsafe_allow_html=True)
+
+    with col2:
+        # Quick mood selections
+        st.subheader("Quick Mood Selection")
+        st.write("Or choose a mood from below:")
+        quick_moods = [
+            "😊 Happy", "😔 Sad", "😰 Stressed",
+            "⚡ Energetic", "😴 Tired", "😋 Hungry"
+        ]
+        for mood in quick_moods:
+            if st.button(mood, key=mood):
+                try:
+                    with st.spinner("Finding the perfect meal..."):
+                        response = requests.post(
+                            "http://localhost:8000/api/mood/text",
+                            json={"text": mood.split()[1]}
+                        )
+                        if response.status_code == 200:
+                            result = response.json()
+                            display_recommendation(result)
+                        else:
+                            st.error("Error getting recommendation. Please try again.")
+                except Exception as e:
+                    st.error("Error connecting to the server. Please make sure the backend is running.")
+
+def display_recommendation(result):
+    """Display the meal recommendation in a beautifully formatted way"""
+    st.markdown('---')
+    
+    # Get user's dietary preferences
+    try:
+        prefs_response = requests.get("http://localhost:8000/api/user/preferences/default_user")
+        user_preferences = prefs_response.json() if prefs_response.status_code == 200 else None
+    except:
+        user_preferences = None
+    
+    # Display detected mood
+    st.markdown(f"""
+        <div class="mood-box">
+            <h3>😊 Detected Mood</h3>
+            <p style='font-size: 20px; color: #2193b0;'>{result["detected_mood"].title()}</p>
+        </div>
+    """, unsafe_allow_html=True)
+    
+    if user_preferences:
+        st.markdown("""
+            <div class="mood-box" style='margin-top: 10px;'>
+                <h4>🎯 Considering Your Dietary Preferences</h4>
+            </div>
+        """, unsafe_allow_html=True)
+    
+    # Display meal recommendation
+    st.markdown('<div class="meal-box">', unsafe_allow_html=True)
+    meal = result["meal_recommendation"]
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown(f"### 🍽️ {meal['name']}")
+        st.markdown(f"*{meal['cuisine_type']} Cuisine*")
+        st.markdown(meal['description'])
+    
+    with col2:
+        st.markdown("#### Why this meal?")
+        st.markdown(f"*{result['explanation']}*")
+    
+    st.markdown('</div>', unsafe_allow_html=True)
+    
+    # Additional meal details in an expandable section
+    with st.expander("See Detailed Meal Information"):
+        st.markdown("### 📋 Meal Details")
+        if 'ingredients' in meal:
+            st.markdown("#### Ingredients")
+            for ingredient in meal['ingredients']:
+                st.markdown(f"- {ingredient}")
+        if 'dietary_options' in meal:
+            st.markdown("#### Dietary Information")
+            for option in meal['dietary_options']:
+                st.markdown(f"- {option}")
+    
+if __name__ == "__main__":
+    main()

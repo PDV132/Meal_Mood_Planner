@@ -1,0 +1,55 @@
+{
+    "meals": [
+        {
+            "name": "Chicken Tikka Masala",
+            "cuisine_type": "South Asian",
+            "description": "A comforting curry with tender chicken in a rich, creamy tomato sauce",
+            "mood_tags": ["comfort", "satisfying", "warm"],
+            "dietary_options": ["high-protein", "gluten-free"],
+            "ingredients": [
+                "chicken breast",
+                "yogurt",
+                "tomatoes",
+                "cream",
+                "garam masala",
+                "turmeric",
+                "ginger",
+                "garlic"
+            ]
+        },
+        {
+            "name": "Mediterranean Quinoa Bowl",
+            "cuisine_type": "Mediterranean",
+            "description": "A light and energizing bowl with quinoa, fresh vegetables, and herbs",
+            "mood_tags": ["energizing", "fresh", "healthy"],
+            "dietary_options": ["vegan", "gluten-free", "high-protein"],
+            "ingredients": [
+                "quinoa",
+                "cucumber",
+                "cherry tomatoes",
+                "red onion",
+                "olives",
+                "fresh mint",
+                "lemon juice",
+                "olive oil"
+            ]
+        },
+        {
+            "name": "Miso Ramen",
+            "cuisine_type": "East Asian",
+            "description": "A soul-warming bowl of ramen with miso broth, perfect for cold days",
+            "mood_tags": ["comfort", "warming", "satisfying"],
+            "dietary_options": ["vegetarian"],
+            "ingredients": [
+                "ramen noodles",
+                "miso paste",
+                "mushrooms",
+                "green onions",
+                "soft-boiled egg",
+                "nori",
+                "corn",
+                "bamboo shoots"
+            ]
+        }
+    ]
+}

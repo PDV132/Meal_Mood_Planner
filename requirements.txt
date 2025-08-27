@@ -1,0 +1,83 @@
+# Python 3.10 Compatible Requirements
+# AI Mood Meal Assistant - Optimized for Python 3.10
+
+# --- Backend Core ---
+
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.7.0
+
+#fastapi>=0.68.0,<0.69.0
+#uvicorn>=0.15.0,<0.16.0
+
+python-multipart==0.0.6
+#pydantic>=1.8.0,<2.0.0
+
+#httptools==0.6.1
+
+# --- Frontend ---
+streamlit==1.22.0
+requests==2.31.0
+
+# --- AI / ML / Embeddings (Python 3.13 Optimized) ---
+transformers==4.30.2
+torch>=2.0.0,<2.2.0
+torchvision
+torchaudio
+sentence-transformers==2.2.2
+huggingface_hub==0.16.4
+scikit-learn>=1.2.2
+scipy==1.10.1
+faiss-cpu==1.7.4
+numpy==1.24.3
+
+# --- Audio Processing ---
+librosa==0.10.1
+soundfile==0.12.1
+SpeechRecognition==3.10.0
+pydub>=0.25.0
+simpleaudio>=1.0.0
+
+# --- Text-to-Speech ---
+gTTS==2.4.0
+
+# --- LangChain / OpenAI (Python 3.10 Compatible) ---
+#langchain==0.0.335
+#openai==0.28.1
+
+langchain>=0.1.0
+langchain-core>=0.1.0
+langsmith>=0.1.0
+openai>=1.0.0
+
+langchain-openai>=0.1.0
+langchain-community>=0.1.0
+langchain-text-splitters>=0.1.0
+
+
+# --- Data Processing ---
+pandas==2.0.3
+python-dotenv==1.0.0
+python-dateutil==2.8.2
+
+# --- Visualization ---
+plotly==5.17.0
+
+# --- Utility ---
+typing-extensions==4.8.0
+tqdm==4.66.1
+tenacity==8.2.3
+click==8.1.7
+
+# --- Development & Testing ---
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# --- Additional Python 3.10 Specific ---
+setuptools==69.0.2
+wheel==0.42.0
+
+# --- Optional Performance Boosters ---
+# Uncomment for better performance on Python 3.10
+# accelerate==0.25.0
+# tokenizers==0.15.0     tokenizers>=0.11.1,<0.14
